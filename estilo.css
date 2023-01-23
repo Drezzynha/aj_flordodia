@@ -1,0 +1,545 @@
+/* seletor{propriedade:valor;}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@500&family=Merienda&family=Neucha&family=Sarabun:wght@100;200&family=Vidaloka&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* menu*/
+
+nav {
+    text-align: center;
+    padding: 0px;
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 20px;
+}
+
+a {
+    color: #4b4040;
+    font: 1.5rem 'Amatic SC', cursive;
+    text-decoration: none;
+}
+
+.menu {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.menu link,
+.menu :visited {
+    color: #f87e7b;
+}
+
+.menu:hover,
+active {
+    color: #b31237;
+}
+
+
+/*banner*/
+
+header {
+    /*altura*/
+    height: 50%;
+    /*largura*/
+    width: 80%;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+}
+
+
+/* ofertas e promoções*/
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #63203d;
+}
+
+#containerpromocao {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.card0 {
+    background-color: azure;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border: #b31237;
+}
+
+.card0 img {
+    background-color: #FFF;
+    /*altura*/
+    height: 100%;
+    /*largura*/
+    width: 100%;
+    border-top: 3px solid #f0afab;
+    border-bottom: 3px solid #f0afab;
+    transition: 1s;
+    margin: 0 auto;
+}
+
+
+/* Buques*/
+
+article {
+    height: 40%;
+    /*largura*/
+    width: 100%;
+}
+
+.secao-buques {
+    background-color: #FFF;
+    /*altura*/
+    height: 40%;
+    /*largura*/
+    width: 100%;
+}
+
+.secao-buques h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #63203d;
+}
+
+.secao-buques p {
+    font-family: 'Neucha', cursive;
+    text-align: left;
+    color: #63203d;
+    font-size: 2rem;
+}
+
+.secao-buques img {
+    /*altura*/
+    height: 50%;
+    /*largura*/
+    width: 50%;
+}
+
+.containerbuques {
+    height: 90%;
+    width: 98%;
+    display: flex;
+    padding: 2%;
+}
+
+.card1 {
+    background-color: #FFF;
+    height: 30%;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px #8daaf9;
+    transition: 1s;
+    display: flex;
+}
+
+.card1:hover {
+    width: 100%;
+    height: 10%;
+}
+
+.card-content1 {
+    background: radial-gradient(#d4486f, #f129bc);
+    width: 50%;
+    height: 100%;
+}
+
+.containerbuques h3 {
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.containerbuques p {
+    text-align: center;
+    font-family: 'Vidaloka', serif;
+    font-size: 1.5rem;
+    color: red;
+    background-color: #FFF;
+}
+
+.containerbuques2 {
+    height: 90%;
+    width: 98%;
+    display: flex;
+    padding: 2%;
+}
+
+.card2 {
+    background-color: #FFF;
+    height: 30%;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px #8daaf9;
+    transition: 1s;
+    display: flex;
+    margin-top: auto;
+}
+
+.card2:hover {
+    width: 100%;
+    height: 10%;
+}
+
+.card-content2 {
+    background: radial-gradient(#d4486f, #f129bc);
+    width: 50%;
+    height: 100%;
+}
+
+.containerbuques2 h3 {
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.containerbuques2 p {
+    text-align: center;
+    font-family: 'Vidaloka', serif;
+    font-size: 1.5rem;
+    color: red;
+    background-color: #FFF;
+}
+
+
+/* Arranjos */
+
+#secao-arranjos {
+    height: 20%;
+    /*largura*/
+    width: 100%;
+}
+
+.secao-arranjos h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #63203d;
+}
+
+.secao-arranjos p {
+    font-family: 'Neucha', cursive;
+    text-align: left;
+    color: #63203d;
+    font-size: 2rem;
+}
+
+.containerarranjos {
+    /*altura*/
+    height: 10%;
+    /*largura*/
+    width: 100%;
+    display: flex;
+}
+
+.card3 {
+    background-color: #FFF;
+    height: 40%;
+    width: 70%;
+    border-bottom-left-radius: 50px 50px 50px 50px;
+    box-shadow: 0 8px 16px #8daaf9;
+    transition: 1s;
+    margin-top: auto;
+}
+
+.card3 img {
+    height: 40%;
+    /*altura*/
+    width: 90%;
+    /*largura*/
+}
+
+.card-arranjos {
+    width: 100%;
+    height: 50%;
+    background: radial-gradient(#FFF, #888dda);
+}
+
+.containerarranjos h3 {
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+    color: #63203d;
+    font-size: 1em;
+}
+
+.containerarranjos p {
+    text-align: center;
+    font-family: 'Vidaloka', serif;
+    font-size: 2rem;
+    color: red;
+}
+
+
+/*agendamento*/
+
+#secao-agendamento {
+    text-align: center;
+    padding: 2%;
+}
+
+#secao-agendamento h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #63203d;
+}
+
+#secao-agendamento p {
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    color: #63203d;
+    font-size: 2rem;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+input,
+select,
+textarea,
+option {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #619885;
+    border-radius: 6px;
+    font-family: 'Sarabun', sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    color: #619885;
+}
+
+label,
+select,
+textarea {
+    font-family: 'Cinzel', serif;
+    text-align: left;
+    font-size: 1rem;
+    color: #619885;
+}
+
+#escolher {
+    font-family: 'Cinzel', serif;
+    width: 100%;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 80px;
+}
+
+#botoes-form {
+    display: flex;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    color: #619885;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    margin: 20px;
+    background-color: #caf2be;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+}
+
+input[type="reset"] {
+    background-color: #c1c1c1;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+}
+
+
+/*sobre*/
+
+#sessao-sobre {
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+.containersobre {
+    display: flex;
+}
+
+.containersobre img {
+    height: 100%;
+    width: 50%;
+    padding: 5%;
+}
+
+.card4 {
+    background-color: #FFF;
+    /*altura*/
+    height: 60%;
+    /*largura*/
+    width: 100%;
+    padding: 0%;
+}
+
+.containersobre h3 {
+    font-size: 20px;
+    text-align: center;
+    font: 1.5rem'Amatic SC', cursive;
+    color: #f87e7b;
+}
+
+.containersobre p {
+    font: 1.5rem'Amatic SC', cursive;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.texto {
+    font-family: 'Merienda', cursive;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#sessao-sobre1 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #FFF;
+}
+
+#sessao-sobre1 p {
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    color: gradient;
+    font-size: 1rem;
+    padding: 2%;
+}
+
+
+/*rodape*/
+
+#rodape {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+
+#rodape img {
+    width: 100%;
+    height: 100px;
+}
+
+footer {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-top: 1px;
+    background-color: #caf2be;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #5d544d;
+}
+
+footer p:hover {
+    color: #b31237;
+    transition: 0s;
+}
+
+@media screen and (max-width: 390px) {
+    nav {
+        height: 50px;
+    }
+    header {
+        font-size: 1.2em;
+    }
+    section {
+        width: 100%;
+    }
+    #containerpromocao {
+        display: flex;
+        width: 100%;
+        height: 0%;
+    }
+    .containerbuques {
+        display: flex;
+        width: 100%;
+        height: 30%;
+    }
+    .containerbuques p {
+        width: 100%;
+        height: 30%;
+        font-size: 1em;
+    }
+    .containerbuques h3 {
+        font-size: 50%;
+    }
+    .containerbuques2 {
+        display: flex;
+        width: 100%;
+        height: 30%;
+    }
+    .containerbuques2 p {
+        width: 100%;
+        height: 30%;
+        font-size: 1em;
+    }
+    .containerbuques2 h3 {
+        font-size: 50%;
+    }
+    .containerarranjos h3 {
+        font-size: 50%;
+    }
+    .containerarranjos p {
+        font-size: 1em;
+    }
+    form {
+        width: 100%;
+        height: 100%;
+    }
+    .containersobre img {
+        height: 100%;
+        width: 60%;
+        padding: 3%;
+    }
+    .containersobre h3 {
+        font-size: 20px;
+    }
+    .containersobre p {
+        font-size: 20px;
+    }
+    .texto,
+    p {
+        width: 100%;
+        height: 5%;
+        font-size: 1em;
+    }
+    footer {
+        text-align: justify;
+        font-size: 60%;
+        margin-top: 1px;
+        padding: 2px;
+    }
+}
